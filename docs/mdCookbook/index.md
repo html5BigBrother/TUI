@@ -7,7 +7,6 @@ lang: en-US
 
 ## 跳转链接
 [返回首页](/)  
-[跳转 foo](/foo/index.html)  
 [跳转百度](https://www.baidu.com)
 
 ## 表格
