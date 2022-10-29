@@ -6,7 +6,7 @@ on:
   push:
     branches: ["master"]
     paths:
-      - 'docs/.vitepress/dist/**'
+      - 'docs/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,9 +29,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    container: node:16.16
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: crete dist
+        run: cd docs && npm install && npm run docs:build
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
