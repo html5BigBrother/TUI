@@ -35,4 +35,6 @@ export default {
 }
 ```
 
+## vue组件
+
 <Button />

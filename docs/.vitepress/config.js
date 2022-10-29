@@ -1,5 +1,9 @@
-module.exports = {
-  title: 'Hello VitePress',
-  description: 'Just playing around.',
-  base: '/TUI/'
-}
+import themeConfig from './themeConfig'
+module.exports = (ctx) => {
+  return {
+    title: "TUI",
+    description: "Just playing around.",
+    base: ctx.mode === "development" ? "" : "/TUI/",
+    themeConfig
+  };
+};
