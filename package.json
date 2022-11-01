@@ -18,7 +18,7 @@
   "dependencies": {
     "@t-ui/components": "workspace:^1.0.0",
     "@t-ui/utils": "workspace:^1.0.0",
-    "TUI": "workspace:^0.0.1"
+    "t-ui": "workspace:^0.0.1"
   },
   "devDependencies": {
     "less": "^4.1.3",

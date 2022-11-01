@@ -4,11 +4,15 @@
   "description": "TUI组件库",
   "main": "lib/index.umd.js",
   "module": "es/index.mjs",
+  "files": ["dist"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vue-tsc --noEmit && vite build"
   },
-  "keywords": [],
+  "keywords": [
+    "t-ui",
+    "vue3"
+  ],
   "author": "yty",
   "license": "MIT",
   "devDependencies": {
