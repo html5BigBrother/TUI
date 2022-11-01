@@ -84,4 +84,7 @@ const buttonClass = computed(() => {
     border: none;
   }
 }
+.page{
+  color: #fff;
+}
 </style>

@@ -1,6 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
-// import { Button } from '@TUI/components'
-import { Button } from '../../../packages/components/index'
+import { Button } from 'TUI'
+// import { Button } from '../../../packages/components/index'
 
 export default {
   ...DefaultTheme,

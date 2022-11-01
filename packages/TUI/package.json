@@ -1,0 +1,23 @@
+{
+  "name": "TUI",
+  "version": "0.0.1",
+  "description": "TUI组件库",
+  "main": "lib/index.umd.js",
+  "module": "es/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vue-tsc --noEmit && vite build"
+  },
+  "keywords": [],
+  "author": "yty",
+  "license": "MIT",
+  "devDependencies": {
+    "vue-tsc": "^0.40.4",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "sass": "^1.54.9",
+    "vite": "^3.1.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.37"
+  }
+}

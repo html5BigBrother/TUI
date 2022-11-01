@@ -1,18 +1,32 @@
 {
-  "name": "TUI",
+  "name": "TUI-repo",
   "version": "1.0.0",
-  "description": "TUI组件库",
+  "description": "TUI组件库工程",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "pnpm run -C docs docs:dev",
+    "docs:build": "pnpm run -C docs docs:build",
+    "docs:serve": "pnpm run -C docs docs:serve",
+    "build": "pnpm run -C packages/TUI build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "TUI",
+    "vue3"
+  ],
+  "author": "yty",
+  "dependencies": {
+    "@TUI/components": "workspace:^1.0.0",
+    "@TUI/utils": "workspace:^1.0.0",
+    "TUI": "workspace:^0.0.1"
+  },
   "devDependencies": {
     "less": "^4.1.3",
     "typescript": "^4.8.4",
     "vite": "^3.2.0",
     "vue": "^3.2.36"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
