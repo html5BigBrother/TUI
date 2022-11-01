@@ -1,2 +1,2 @@
-export * from '@TUI/components'
-export * from '@TUI/utils'
+export * from '@t-ui/components'
+export * from '@t-ui/utils'

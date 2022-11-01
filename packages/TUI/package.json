@@ -1,5 +1,5 @@
 {
-  "name": "TUI",
+  "name": "t-ui",
   "version": "0.0.1",
   "description": "TUI组件库",
   "main": "lib/index.umd.js",
