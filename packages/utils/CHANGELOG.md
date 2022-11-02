@@ -1,5 +1,11 @@
 # @t-ui/utils
 
+## 1.2.1
+
+### Patch Changes
+
+- fd96134: upload uitls
+
 ## 1.2.0
 
 ### Minor Changes
