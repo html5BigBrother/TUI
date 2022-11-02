@@ -5,6 +5,6 @@
 node_modules
 packages/*/es
 packages/*/lib
-packages/TUI/dist
+packages/t-ui/dist
 
 docs/.vitepress/dist

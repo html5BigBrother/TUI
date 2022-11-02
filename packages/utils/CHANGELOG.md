@@ -1,5 +1,11 @@
 # @t-ui/utils
 
+## 1.2.0
+
+### Minor Changes
+
+- 升级 utils
+
 ## 1.1.0
 
 ### Minor Changes

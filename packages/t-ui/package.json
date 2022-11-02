@@ -1,6 +1,6 @@
 {
   "name": "t-ui-core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TUI组件库",
   "main": "dist/lib/index.umd.js",
   "module": "dist/es/index.mjs",

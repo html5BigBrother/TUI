@@ -1,0 +1,10 @@
+{
+  "mode": "pre",
+  "tag": "alpha",
+  "initialVersions": {
+    "@t-ui/components": "1.1.1",
+    "t-ui-core": "1.0.3",
+    "@t-ui/utils": "1.2.0"
+  },
+  "changesets": []
+}
