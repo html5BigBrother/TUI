@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import { Button } from 'TUI'
+import { Button } from 't-ui-core'
 // import { Button } from '../../../packages/components/index'
 
 export default {
