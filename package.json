@@ -16,7 +16,8 @@
   ],
   "author": "yty",
   "publishConfig": {
-    "directory": "dist"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "@t-ui/components": "workspace:^1.0.0",
