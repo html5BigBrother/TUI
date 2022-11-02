@@ -9,10 +9,6 @@
     "docs:serve": "pnpm run -C docs docs:serve",
     "build": "pnpm run -C packages/TUI build"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
   "dependencies": {
     "@t-ui/components": "workspace:^1.0.0",
     "@t-ui/utils": "workspace:^1.0.0",
