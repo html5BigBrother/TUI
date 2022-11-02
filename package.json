@@ -7,7 +7,8 @@
     "docs:dev": "pnpm run -C docs docs:dev",
     "docs:build": "pnpm run -C docs docs:build",
     "docs:serve": "pnpm run -C docs docs:serve",
-    "build": "pnpm run -C packages/t-ui build && pnpm changeset"
+    "build": "pnpm run -C packages/t-ui build",
+    "release": "pnpm changeset && pnpm changeset version && pnpm changeset publish"
   },
   "dependencies": {
     "@t-ui/components": "workspace:*",
