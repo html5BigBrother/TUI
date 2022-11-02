@@ -1,3 +1,3 @@
 export const testfun = (a: number, b: number) => {
-  return a + b
+  return a + b + 3s
 }
