@@ -10,11 +10,12 @@
     "build": "pnpm run -C packages/TUI build"
   },
   "dependencies": {
-    "@t-ui/components": "workspace:^1.0.0",
-    "@t-ui/utils": "workspace:^1.0.0",
-    "t-ui-core": "workspace:^0.0.1"
+    "@t-ui/components": "workspace:*",
+    "@t-ui/utils": "workspace:*",
+    "t-ui-core": "workspace:*"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.25.2",
     "less": "^4.1.3",
     "typescript": "^4.8.4",
     "vite": "^3.2.0",
