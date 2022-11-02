@@ -1,8 +1,7 @@
 {
   "name": "TUI-repo",
-  "version": "1.0.0",
   "description": "TUI组件库工程",
-  "main": "index.js",
+  "author": "yty",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "pnpm run -C docs docs:dev",
@@ -10,11 +9,6 @@
     "docs:serve": "pnpm run -C docs docs:serve",
     "build": "pnpm run -C packages/TUI build"
   },
-  "keywords": [
-    "TUI",
-    "vue3"
-  ],
-  "author": "yty",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
