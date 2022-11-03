@@ -1,5 +1,11 @@
 # @t-ui/utils
 
+## 1.2.2
+
+### Patch Changes
+
+- 987d2ce: upload utils
+
 ## 1.2.1
 
 ### Patch Changes

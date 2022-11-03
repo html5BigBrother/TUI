@@ -1,16 +1,31 @@
 {
   "name": "@t-ui/utils",
-  "version": "1.2.1",
-  "description": "",
-  "main": "index.ts",
+  "version": "1.2.2",
+  "description": "tui工具库",
+  "main": "dist/lib/index.umd.js",
+  "module": "dist/es/index.mjs",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "@t-ui/utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/html5BigBrother/TUI"
+  },
+  "homepage": "https://html5bigbrother.github.io/TUI/",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "author": "yty",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^3.2.0"
   }
 }

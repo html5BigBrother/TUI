@@ -1,5 +1,11 @@
 # @t-ui/components
 
+## 1.1.2
+
+### Patch Changes
+
+- f92c71f: 测试 changeset
+
 ## 1.1.1
 
 ### Patch Changes

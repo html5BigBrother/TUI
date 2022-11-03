@@ -1,5 +1,18 @@
 # t-ui-core
 
+## 1.1.0
+
+### Minor Changes
+
+- f92c71f: 测试 changeset
+
+### Patch Changes
+
+- Updated dependencies [987d2ce]
+- Updated dependencies [f92c71f]
+  - @t-ui/utils@1.2.2
+  - @t-ui/components@1.1.2
+
 ## 1.0.4
 
 ### Patch Changes
