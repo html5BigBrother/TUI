@@ -6,6 +6,6 @@
   "ignore": [],
   "linked": [],
   "access": "public",
-  "baseBranch": "feature/test",
+  "baseBranch": "feature/gulp",
   "updateInternalDependencies": "patch"
 }
