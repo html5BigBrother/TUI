@@ -1,5 +1,11 @@
 # @t-ui/utils
 
+## 1.2.3
+
+### Patch Changes
+
+- eac6107: upload uitls
+
 ## 1.2.2
 
 ### Patch Changes

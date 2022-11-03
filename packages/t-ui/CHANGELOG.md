@@ -1,5 +1,12 @@
 # t-ui-core
 
+## 1.1.1
+
+### Patch Changes
+
+- Updated dependencies [eac6107]
+  - @t-ui/utils@1.2.3
+
 ## 1.1.0
 
 ### Minor Changes
