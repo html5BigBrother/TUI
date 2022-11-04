@@ -1,5 +1,11 @@
 # @t-ui/components
 
+## 1.1.4
+
+### Patch Changes
+
+- ac43db4: upload components2
+
 ## 1.1.3
 
 ### Patch Changes

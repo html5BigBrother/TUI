@@ -1,5 +1,12 @@
 # t-ui-core
 
+## 1.1.5
+
+### Patch Changes
+
+- Updated dependencies [ac43db4]
+  - @t-ui/components@1.1.4
+
 ## 1.1.4
 
 ### Patch Changes
