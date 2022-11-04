@@ -1,5 +1,11 @@
 # @t-ui/components
 
+## 1.1.3
+
+### Patch Changes
+
+- 3ffaba4: upload components
+
 ## 1.1.2
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # t-ui-core
 
+## 1.1.4
+
+### Patch Changes
+
+- Updated dependencies [3ffaba4]
+  - @t-ui/components@1.1.3
+
 ## 1.1.3
 
 ### Patch Changes
