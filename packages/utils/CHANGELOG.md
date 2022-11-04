@@ -1,5 +1,11 @@
 # @t-ui/utils
 
+## 1.2.5
+
+### Patch Changes
+
+- 67e20b8: 测试 uitls
+
 ## 1.2.4
 
 ### Patch Changes

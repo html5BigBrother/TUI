@@ -1,5 +1,12 @@
 # t-ui-core
 
+## 1.1.3
+
+### Patch Changes
+
+- Updated dependencies [67e20b8]
+  - @t-ui/utils@1.2.5
+
 ## 1.1.2
 
 ### Patch Changes
