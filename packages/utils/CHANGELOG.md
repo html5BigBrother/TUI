@@ -1,5 +1,11 @@
 # @t-ui/utils
 
+## 1.2.6
+
+### Patch Changes
+
+- 355edd1: upload uitls
+
 ## 1.2.5
 
 ### Patch Changes

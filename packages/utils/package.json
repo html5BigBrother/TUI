@@ -1,6 +1,6 @@
 {
   "name": "@t-ui/utils",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "tui工具库",
   "main": "dist/lib/index.umd.js",
   "module": "dist/es/index.mjs",
