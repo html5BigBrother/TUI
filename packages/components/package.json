@@ -2,16 +2,38 @@
   "name": "@t-ui/components",
   "version": "1.1.4",
   "description": "",
-  "main": "index.ts",
-  "module": "index.ts",
+  "main": "dist/lib/index.umd.js",
+  "module": "dist/es/index.mjs",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vue-tsc --noEmit && vite build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "@t-ui/components",
+    "vue3",
+    "组件库"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/html5BigBrother/TUI"
+  },
+  "homepage": "https://html5bigbrother.github.io/TUI/",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "author": "yty",
+  "license": "MIT",
+  "devDependencies": {
+    "vue-tsc": "^0.40.4",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "sass": "^1.54.9",
+    "vite": "^3.1.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.37"
   }
 }
