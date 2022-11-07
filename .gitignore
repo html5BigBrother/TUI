@@ -6,5 +6,6 @@ node_modules
 packages/*/es
 packages/*/lib
 packages/*/dist
+coverage
 
 docs/.vitepress/dist
