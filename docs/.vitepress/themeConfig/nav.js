@@ -14,4 +14,5 @@ export default [
       },
     ],
   },
+  { text: "个人博客", link: "/blog/think/index" }
 ];
